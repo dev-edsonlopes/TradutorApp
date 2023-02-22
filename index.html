@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tradutor APP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" spellcheck="false" readonly disabled
+                    placeholder="Digite o texto"></textarea>
+                <textarea class="to-text" spellcheck="false" readonly disabled placeholder="Tradução"></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i id="from" class="fas fa-volume-up"></i>
+                        <i id="from" class="fas fa-copy"></i>
+                    </div>
+                    <select></select>
+                </li>
+                <li class="exchange">
+                    <i class="fas fa-exchange-alt"></i>
+                </li>
+                <li class="row to">
+                    <select></select>
+                    <div class="icons">
+                        <i id="from" class="fas fa-volume-up"></i>
+                        <i id="from" class="fas fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Traduzir Texto</button>
+    </div>
+
+    <script src="paises.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
